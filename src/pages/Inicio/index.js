@@ -1,6 +1,9 @@
+import Cabecalho from "components/Cabecalho";
+
+
 function Inicio() {
     return (
-        <h1>ola</h1>
+        <Cabecalho />
     )
 }
 
