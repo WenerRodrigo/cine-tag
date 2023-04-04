@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import logo from './logo.png';
 import styles from "./Cabecalho.module.css";
-import CabecalhoLink from "components/CabecalhoLink";
+import CabecalhoLink from "../../components/CabecalhoLink";
 
 
 function Cabecalho() {
     return (
         <header className={styles.cabecalho}>
             <Link to="./">
-                <img src={logo} alt="Logo do cine Tag"/>
+                <img src={logo} alt="Logo do cine Tag"></img>
             </Link>
             <nav>
             <CabecalhoLink url="./">
